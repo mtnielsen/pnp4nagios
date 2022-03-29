@@ -1,6 +1,6 @@
 Shamelessly stolen from https://github.com/lingej/pnp4nagios (no longer maintained)
 
-----
+---
 
 # Install
 I don't have a specific list of what's actually necessary, so here's what I have in my dockerfile, and it works, so there. Engineer yourself backwards from here.
