@@ -5,6 +5,9 @@ Shamelessly stolen from https://github.com/lingej/pnp4nagios (no longer maintain
 # Install
 I don't have a specific list of what's actually necessary, so here's what I have in my dockerfile, and it works, so there. Engineer yourself backwards from here.
 
+
+    FROM almalinux:8
+    
     RUN yum -y -q install epel-release net-tools less wget dnf-plugins-core && \
         yum -y -q update && \
         yum -y -q upgrade && \
